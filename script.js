@@ -18,4 +18,18 @@ const user = {
   job: "Actor",
 };
 const userJSON = JSON.stringify(user);
-console.log(userJSON);
+// console.log(userJSON);
+
+const value = 4;
+
+switch (value) {
+  case 3:
+    console.log("okh 3 is okh");
+    break;
+  case 4:
+    console.log("no 2 is not okh");
+    break;
+  default:
+    console.log("okey");
+    break;
+}
