@@ -43,14 +43,43 @@ while (count < 5) {
 
 // console.log(count);
 
+const arr = [1, 2, 4, 3];
 
-const arr = [1,2,4 ,3 ]
-
-for (let value of arr){
+for (let value of arr) {
   // console.log(value);
 }
 
-
-const object = {name:"sadik", age: '23'}
+const object = { name: "sadik", age: "23" };
 
 // console.log(object.name);
+// for(let key in object){
+//   console.log(key);
+// }
+
+const arrayS = [1, 2, 23, 2, 3, 43, 3];
+
+const [a, b, ...c] = arrayS;
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+const mySet = new Set();
+mySet.add(1);
+// mySet.delete(1)
+mySet.has(1);
+mySet.size;
+
+for (const value of mySet) {
+  // console.log(value);
+}
+
+const myMap = new Map();
+
+// const numberMap = new Map([1, "one"], [2, "two"]);
+
+myMap.set(4, "four");
+myMap.delete(4);
+myMap.get(4);
+
+
