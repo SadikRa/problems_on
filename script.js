@@ -37,7 +37,7 @@ const value = 4;
 let count = 0;
 
 while (count < 5) {
-  console.log("Count is: " + count);
+  // console.log("Count is: " + count);
   count++;
 }
 
@@ -47,5 +47,10 @@ while (count < 5) {
 const arr = [1,2,4 ,3 ]
 
 for (let value of arr){
-  console.log(value);
+  // console.log(value);
 }
+
+
+const object = {name:"sadik", age: '23'}
+
+// console.log(object.name);
