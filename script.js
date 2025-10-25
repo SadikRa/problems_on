@@ -41,4 +41,11 @@ while (count < 5) {
   count++;
 }
 
-console.log(count);
+// console.log(count);
+
+
+const arr = [1,2,4 ,3 ]
+
+for (let value of arr){
+  console.log(value);
+}
