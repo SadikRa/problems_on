@@ -82,4 +82,40 @@ myMap.set(4, "four");
 myMap.delete(4);
 myMap.get(4);
 
+function welcome(a, b) {
+  // console.log(a, b);
+}
 
+welcome(1, 2);
+
+const users = [
+  { name: "sadik", age: 23 },
+  { name: "sadikF", age: 23 },
+];
+
+// const nmaes = users.map((nam) => console.log(nam.name))
+
+const namN = [1, 2, 3, 5, 4, 4, 5, 4, 5, 6];
+
+const even = namN.filter((num) => num % 2 === 0);
+const odd = namN.filter((num) => num % 2 === 1);
+
+// console.log(even, odd);
+
+///TO DO
+///promise
+
+const shop = {
+  owner: "Alia",
+  address: {
+    street: "kochukhet voot er goli",
+    city: "ranbir",
+    country: "BD",
+  },
+  products: ["laptop", "mic", "monitor", "keyboard"],
+  revenue: 45000,
+  isOpen: true,
+  isNew: false,
+};
+
+const shopJSON = JSON.stringify(shop);
