@@ -119,3 +119,21 @@ const shop = {
 };
 
 const shopJSON = JSON.stringify(shop);
+
+const orderFood = new Promise((resolve, reject) => {
+  const foodReady = false;
+
+  if (foodReady) {
+    resolve("yap, food is ready");
+  } else {
+    reject("nah, our food is rotten");
+  }
+});
+
+orderFood
+  .then((message) => {
+    console.log(message);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
