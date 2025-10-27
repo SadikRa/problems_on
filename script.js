@@ -154,15 +154,15 @@ const shopJSON = JSON.stringify(shop);
 
 // Post
 const url = "www.sadik.com";
-const user1 = { name: sadik, age: 23 };
+const user1 = { name: "sadik", age: 23 };
 
-fetch(url, {
-  method: "POST",
-  body: JSON.stringify(user1),
-  headers: {
-    "Content-type": "application/json",
-  },
-});
+// fetch(url, {
+//   method: "POST",
+//   body: JSON.stringify(user1),
+//   headers: {
+//     "Content-type": "application/json",
+//   },
+// });
 // .then((response) => response.json())
 // .then((data) => console.log(data))
 // .catch((error) => console.error(error));
@@ -177,9 +177,17 @@ const options = {
   },
 };
 
-fetch(url1, options);
+// fetch(url1, options);
 // .then((res) => res.json())
 // .then((data) => console.log(data))
 // .catch((error) => console.error(error));
 
+const url2 = "https://jsonplaceholder.typicode.com/users/1";
+const options2 = {
+  method: "DELETE",
+};
 
+// fetch(url2, options2)
+  // .then((res) => res.json())
+  // .then((data) => console.log("Deleted:", data))
+  // .catch((error) => console.error(error));
