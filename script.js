@@ -130,10 +130,15 @@ const orderFood = new Promise((resolve, reject) => {
   }
 });
 
-orderFood
-  .then((message) => {
-    console.log(message);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+// orderFood
+//   .then((message) => {
+//     console.log(message);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
+
+// const url = "https://jsonplaceholder.typicode.com/users";
+// fetch(url); // or
+
+// fetch("https://jsonplaceholder.typicode.com/users");
