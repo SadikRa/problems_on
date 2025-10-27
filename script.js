@@ -145,7 +145,24 @@ const shopJSON = JSON.stringify(shop);
 
 // console.log("data", data);
 
+//get
+
 // fetch("https://jsonplaceholder.typicode.com/users")
 //   .then((response) => response.json())
 //   .then((data) => console.log(data))
 //   .catch((error) => console.error(error));
+
+// Post
+const url = "www.sadik.com";
+const user1 = { name: sadik, age: 23 };
+
+fetch(url, {
+  method: "POST",
+  body: JSON.stringify(user1),
+  headers: {
+    "Content-type": "application/json",
+  },
+})
+  // .then((response) => response.json())
+  // .then((data) => console.log(data))
+  // .catch((error) => console.error(error));
