@@ -162,7 +162,24 @@ fetch(url, {
   headers: {
     "Content-type": "application/json",
   },
-})
-  // .then((response) => response.json())
-  // .then((data) => console.log(data))
-  // .catch((error) => console.error(error));
+});
+// .then((response) => response.json())
+// .then((data) => console.log(data))
+// .catch((error) => console.error(error));
+
+const url1 = "https://jsonplaceholder.typicode.com/users/1";
+const updatedUser = { name: "John Doe", email: "john.doe@newemail.com" };
+const options = {
+  method: "PUT",
+  body: JSON.stringify(updatedUser),
+  headers: {
+    "Content-type": "application/json",
+  },
+};
+
+fetch(url1, options);
+// .then((res) => res.json())
+// .then((data) => console.log(data))
+// .catch((error) => console.error(error));
+
+
