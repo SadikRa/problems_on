@@ -120,17 +120,17 @@ const shop = {
 
 const shopJSON = JSON.stringify(shop);
 
-const orderFood = new Promise((resolve, reject) => {
-  const foodReady = false;
+// const orderFood = new Promise((resolve, reject) => {
+//   const foodReady = false;
 
-  if (foodReady) {
-    resolve("yap, food is ready");
-  } else {
-    reject("nah, our food is rotten");
-  }
-});
+//   if (foodReady) {
+//     resolve("yap, food is ready");
+//   } else {
+//     reject("nah, our food is rotten");
+//   }
+// });
 
-// orderFood
+// // orderFood
 //   .then((message) => {
 //     console.log(message);
 //   })
@@ -141,4 +141,11 @@ const orderFood = new Promise((resolve, reject) => {
 // const url = "https://jsonplaceholder.typicode.com/users";
 // fetch(url); // or
 
-// fetch("https://jsonplaceholder.typicode.com/users");
+// const data = fetch("https://jsonplaceholder.typicode.com/users");
+
+// console.log("data", data);
+
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data))
+//   .catch((error) => console.error(error));
