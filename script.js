@@ -188,6 +188,19 @@ const options2 = {
 };
 
 // fetch(url2, options2)
-  // .then((res) => res.json())
-  // .then((data) => console.log("Deleted:", data))
-  // .catch((error) => console.error(error));
+// .then((res) => res.json())
+// .then((data) => console.log("Deleted:", data))
+// .catch((error) => console.error(error));
+
+// async function fetchData() {
+//   try {
+//     const url = "https://jsonplaceholder.typicode.com/users/1";
+//     const response = await fetch(url);
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.error("Error:", error);
+//   }
+// }
+
+// fetchData();
