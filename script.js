@@ -204,3 +204,9 @@ const options2 = {
 // }
 
 // fetchData();
+
+// const user = { name: "Rahim", address: { city: "Dhaka" } };
+// console.log(user?.address?.city);
+// console.log(user?.profile?.email);
+// Output: Dhaka;
+// undefined;
