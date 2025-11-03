@@ -19,4 +19,25 @@ var expect = function (val) {
   };
 };
 
+// Counter II
+
+var createCounter = function(init) {
+    const original = init;
+    let count = init;
+    return{
+        increment(){
+            count++;
+            return count
+        },
+        decrement(){
+            count--;
+            return count
+        },
+        reset(){
+            count = original;
+            return count
+        }
+    }
+};
+
 
