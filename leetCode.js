@@ -49,3 +49,16 @@ var map = function (arr, fn) {
   });
   return newArr;
 };
+
+/// Filter Elements from Array
+
+var filter = function (arr, fn) {
+  let filteredArr = [];
+  arr.forEach((value, index) => {
+    if (fn(value, index)) {
+      filteredArr.push(value);
+    }
+  });
+  return filteredArr;
+};
+
