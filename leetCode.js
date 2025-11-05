@@ -21,23 +21,31 @@ var expect = function (val) {
 
 // Counter II
 
-var createCounter = function(init) {
-    const original = init;
-    let count = init;
-    return{
-        increment(){
-            count++;
-            return count
-        },
-        decrement(){
-            count--;
-            return count
-        },
-        reset(){
-            count = original;
-            return count
-        }
-    }
+var createCounter = function (init) {
+  const original = init;
+  let count = init;
+  return {
+    increment() {
+      count++;
+      return count;
+    },
+    decrement() {
+      count--;
+      return count;
+    },
+    reset() {
+      count = original;
+      return count;
+    },
+  };
 };
 
+////Apply Transform Over Each Element in Array
 
+var map = function (arr, fn) {
+  let newArr = [];
+  arr.forEach((value, index) => {
+    newArr.push(fn(value, index));
+  });
+  return newArr;
+};
