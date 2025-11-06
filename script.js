@@ -212,8 +212,14 @@ const options2 = {
 // undefined;
 
 class Ism {
-  constructor(rafa, nasab, jar) {}
+  constructor(rafa, nasab, jar) {
+    this.rafa = rafa;
+    this.nasab = nasab;
+    this.jar = jar;
+  }
 }
 
-const newIsm = new Ism();
-console.log(newIsm);
+const mIsm = new Ism("muslimu", "muslimun", "muslimin");
+const FIsm = new Ism("muslimatun", "muslimatan", "muslimataine");
+// console.log(mIsm);
+// console.log(FIsm);
