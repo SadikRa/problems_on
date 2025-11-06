@@ -210,3 +210,10 @@ const options2 = {
 // console.log(user?.profile?.email);
 // Output: Dhaka;
 // undefined;
+
+class Ism {
+  constructor(rafa, nasab, jar) {}
+}
+
+const newIsm = new Ism();
+console.log(newIsm);
