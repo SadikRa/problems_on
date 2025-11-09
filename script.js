@@ -223,3 +223,31 @@ const mIsm = new Ism("muslimu", "muslimun", "muslimin");
 const FIsm = new Ism("muslimatun", "muslimatan", "muslimataine");
 // console.log(mIsm);
 // console.log(FIsm);
+
+class Laptop {
+  constructor(brand, model, price, keyboardLight) {
+    this.brand = brand;
+    this.model = model;
+    this.price = price;
+    this.keyboardLight = keyboardLight;
+  }
+}
+
+class Phone {
+  constructor(brand, model, price, hasFaceUnlock, cameraCount) {
+    this.brand = brand;
+    this.model = model;
+    this.price = price;
+    this.hasFaceUnlock = hasFaceUnlock;
+    this.cameraCount = cameraCount;
+  }
+}
+
+class Tablet {
+  constructor(brand, model, price, hasPen) {
+    this.brand = brand;
+    this.model = model;
+    this.price = price;
+    this.hasPen = hasPen;
+  }
+}
